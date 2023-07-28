@@ -24,3 +24,5 @@ The `Pharmacy Management System` developed using [`Java Swing`](https://www.java
 - https://www.youtube.com/watch?v=Kmgo00avvEw
 - https://www.youtube.com/watch?v=gk5SHZsDmXs&list=PLdRq0mbeEBmw6diNbWq_DH_iwRAqtMFM0
 - https://github.com/syedibrahim/Pharmacy-Management-System
+- <a href="https://www.flaticon.com/free-icons/anatomy" title="anatomy icons">Anatomy icons created by Kreev Studio - Flaticon</a>
+
