@@ -1,7 +1,7 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Employee implements ActionListener{
+public class Admin implements ActionListener{
 
     static button b1;
     static button b2;
@@ -11,25 +11,19 @@ public class Employee implements ActionListener{
     static button b6;
 
     public static void main(String[] args){                
-        frame f = new frame("#8AAAE5");
+        frame f = new frame("#C5C5C5");
 
-        b1 = new button(200,150,"Add Medicine","medicine.png");
+        b1 = new button(200,200,"Add User","addu.png");
         f.add(b1);
 
-        b2 = new button(200,300,"View Medicine","view.png");
+        b2 = new button(200,350,"View User","viewu.png");
         f.add(b2);
 
-        b3 = new button(200,450,"Update Medicine","update.png");
+        b3 = new button(550,200,"Update User","updateu.png");
         f.add(b3);
 
-        b4 = new button(550,150,"Sell Medicine","sell.png");
+        b4 = new button(550,350,"Profile","profile.png");
         f.add(b4);
-
-        b5 = new button(550,300,"View Bill","bill.png");
-        f.add(b5);
-
-        b6 = new button(550,450,"Profile","profile.png");
-        f.add(b6);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
